@@ -60,23 +60,18 @@ export default function TopNavbar() {
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="News" spy={true} smooth={true} offset={-80}>
-              News
-              </Link>
-            </li>
-            <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
                 Contact
               </Link>
             </li>
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter header-social">
-             <a href= "mailto: name@email.com" className="darkColor"> <i className="fa-solid fa-envelope"></i></a>
-             <a href= " https://www.linkedin.com/in/jatin-hirapara-53916718b/" className="darkColor" ><i className="fa-brands fa-linkedin"></i></a>
-             <a href= "https://github.com/JatinJD14296" className="darkColor" ><i className="fa-brands fa-github"></i></a>
-             <a href= "https://twitter.com/JatinJD14296" className="darkColor" ><i className="fa-brands fa-twitter"></i></a>
-             <a href= "https://developers.google.com/profile/u/FLUTTERKING" className="darkColor" ><i class="fa-brands fa-google"></i></a>
-             <a href= "https://medium.com/@jatinjd.fjs" className="darkColor" ><i className="fa-brands fa-medium"></i></a>
+             <a href="mailto:jatinhirapara.jd@gmail.com" className="darkColor"> <i className="fa-solid fa-envelope"></i></a>
+             <a href="https://www.linkedin.com/in/jatin-hirapara-53916718b/" target="_blank" rel="noopener noreferrer" className="darkColor"><i className="fa-brands fa-linkedin"></i></a>
+             <a href="https://github.com/JatinJD14296" target="_blank" rel="noopener noreferrer" className="darkColor"><i className="fa-brands fa-github"></i></a>
+             <a href="https://twitter.com/JatinJD14296" target="_blank" rel="noopener noreferrer" className="darkColor"><i className="fa-brands fa-twitter"></i></a>
+             <a href="https://developers.google.com/profile/u/FLUTTERKING" target="_blank" rel="noopener noreferrer" className="darkColor"><i className="fa-brands fa-google"></i></a>
+             <a href="https://medium.com/@jatinjd.fjs" target="_blank" rel="noopener noreferrer" className="darkColor"><i className="fa-brands fa-medium"></i></a>
           </UlWrapperRight>
         </NavInner>
       </Wrapper>

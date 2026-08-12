@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 // Assets
 import LogoImg from "../../assets/svg/Logo";
 
-export default function Contact() {
+export default function Footer() {
   const getCurrentYear = () => {
     return new Date().getFullYear();
   };

@@ -6,6 +6,7 @@ export default function Qualification() {
         <Wrapper id="qualification" >
             <div className="container">
                 <h2 className="mb-5 text-center font40 extraBold">My Qualification</h2>
+                <QualificationTable>
                 <tbody>
                   <tr>
                     <th>Qualification</th>
@@ -55,6 +56,7 @@ export default function Qualification() {
                     <td>84.00 %</td>
                   </tr>
                 </tbody>
+                </QualificationTable>
             </div>
         </Wrapper>
        
@@ -66,4 +68,27 @@ const Wrapper = styled.section`
   width: 100%;
   padding:70px 0;
   background:#F5F5F5;
+`;
+const QualificationTable = styled.table`
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  th,
+  td {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  th {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  @media (max-width: 760px) {
+    font-size: 13px;
+    th,
+    td {
+      padding: 8px;
+    }
+  }
 `;
