@@ -1,112 +1,70 @@
-# Getting Started with Create React App
+# Jatin Hirapara Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A portfolio website built with React to showcase mobile app development work, technical skills, projects, experience, and contact details.
 
-## Available Scripts
+## PR Description
 
-In the project directory, you can run:
+### Title
+Fix portfolio app startup/build issues and merge project into main
 
-### `npm start`
+### Summary
+This PR fixes the portfolio project so it installs, runs, and builds successfully in a fresh environment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### What changed
+- Fixed the invalid `react-scripts` dependency version in `package.json`
+- Removed the incompatible Jest ESLint preset that prevented Create React App from starting
+- Resolved merge conflicts between the project branch and the repository’s `main` branch
+- Verified the app compiles successfully in production mode
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Verification
+- `npm install` completed successfully
+- `npm run build` completed successfully with the message: `Compiled successfully.`
+- Local runtime checks returned HTTP 200 on the app port
 
-### `npm test`
+### Notes
+- This resolves the startup and build blockers for the portfolio app
+- There are still some non-blocking dependency warnings and `npm audit` advisories from older packages, but they do not stop the app from running or building
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+- Profile summary and introduction
+- Work experience and qualifications
+- Skills and achievements overview
+- Project showcase section
+- Blog and testimonials sections
+- Contact details and social links
 
-### `npm run build`
+## Tech Stack
+- React
+- JavaScript
+- Styled Components
+- React Scroll
+- Slick Carousel
+- Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install dependencies
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Run locally
+```bash
+npm start
+```
 
-### `npm run eject`
+The app will be available at:
+```text
+http://localhost:3000
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Production build
+```bash
+npm run build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment Note
+The project was built successfully for production using Create React App and is ready to be deployed to a static hosting platform.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## Jatin Hirapara Portfolio README
-
-### Purpose
-
-This single-page web application showcases Jatin Hirapara's skills and experience as a Flutter developer. It provides information about his work history, professional skills, qualifications, projects, and blog posts. Additionally, it offers contact details and testimonials.
-
-### Contributing
-
-Currently, the contribution process for this application is not publicly defined. However, you can reach out to Jatin Hirapara through the contact information provided in the application to express your interest and discuss potential contributions.
-
-### Features
-
-*   **Profile Summary:** Introduces Jatin Hirapara with a brief overview of his expertise and a call to action to explore his portfolio.
-*   **Work History:** Details Jatin's professional experience, highlighting key roles and responsibilities.
-*   **Skills & Achievements:** Showcases his technical skills and notable accomplishments, including certifications and hackathon participation.
-*   **Qualifications:** Lists his educational background and academic achievements.
-*   **Projects:** Presents a selection of projects Jatin has worked on, ranging from personal experiments to professional applications.
-*   **Blog Posts:** Shares insights and experiences through blog entries related to Flutter development and other relevant topics.
-*   **Testimonials:** Features positive feedback from clients and collaborators.
-*   **Contact Information:** Provides various ways to connect with Jatin, including email, phone, and social media.
-
-### Dependencies & Installation
-
-The application is built using React and JavaScript. To run it locally, follow these steps:
-
-1.  **Clone the repository:** Use `git clone` to download the project files to your local machine.
-2.  **Install dependencies:** Navigate to the project directory and run `npm install` to install the required dependencies.
-3.  **Start the development server:** Run `npm start` to launch the application in your web browser.
-
-### Architecture
-
-The application follows a typical React single-page application structure:
-
-*   **Components:** The UI is divided into reusable components, each responsible for rendering a specific part of the interface.
-*   **State Management:** React's built-in state management or a state management library like Redux might be used to handle data flow and application state.
-*   **Routing:** A routing library like React Router is likely used to enable navigation between different sections of the application.
-
-### Reporting Issues
-
-To report any issues or bugs you encounter, please use the contact information provided in the application to reach out to Jatin Hirapara directly.
+## Repository
+- GitHub: https://github.com/JatinJD14296/My-Portfolio
