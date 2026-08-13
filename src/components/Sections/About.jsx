@@ -24,11 +24,12 @@ export default function About() {
                 Seasoned software developer with specialization in mobile apps
               </h2>
               <p className="font14">
-                <br />I am a highly motivated and skilled professional with
-                expertise in mobile app development and a passion for creating
-                innovative solutions. With a strong technical background and
-                proficiency in various programming languages such as C, C++,
-                Java, Kotlin, React and Dart.
+                <br />Highly motivated Master of Information Technology graduate 
+                targeting AI Engineer and Full-Stack Developer roles, 
+                with a strong track record in building scalable mobile 
+                and web applications using Flutter, Dart, Python, and 
+                JavaScript. I am excited to bring my coding skills and 
+                problem-solving abilities to a collaborative software team.
               </p>
               <ButtonsRow style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>

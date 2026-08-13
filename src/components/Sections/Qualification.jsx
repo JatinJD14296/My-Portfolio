@@ -18,9 +18,9 @@ export default function Qualification() {
                     <td>Master of Information 
                     Technology
                     </td>
-                    <td>QUT</td>
+                    <td>James Cook University</td>
                     <td>2023 – 2025</td>
-                    <td>Running</td>
+                    <td>5.5/7</td>
                   </tr>
                   <tr>
                     <td>Bachelor of Computer
@@ -28,7 +28,7 @@ export default function Qualification() {
                     Application</td>
                     <td>VNSGU</td>
                     <td>2016 - 2019</td>
-                    <td>CGPA: 74.00 %</td>
+                    <td>74.00 %</td>
                   </tr>
                   <tr>
                     <td>Diploma in Computer 
