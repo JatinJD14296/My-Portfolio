@@ -12,7 +12,7 @@ export default function Header() {
       <LeftSide className="flexCenter">
         <div>
           <h1 className="extraBold font60">Hi! I'm Jatin Hirapara</h1>
-          <HeaderP className="font40 semiBold">- AI & Full-Stack Developer</HeaderP>
+          <HeaderP className="font30 semiBold">- AI & Full-Stack Developer</HeaderP>
           <BtnWrapper>
             <a href="#contact">
               <FullButton title="Get In Touch" />
