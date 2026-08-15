@@ -1,34 +1,49 @@
-import React, { useState } from "react";
+import React from "react";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+import { Bar } from "react-chartjs-2";
 
-import { HorizontalBar } from "react-chartjs-2";
-import { CDBContainer } from "cdbreact";
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-const Chart = ({ labels, value1,value2 }) => {
-  const [data] = useState({
-    labels: labels,
+const Chart = ({ skills }) => {
+  const labels = skills.map((s) => s.label);
+  const values = skills.map((s) => s.value);
+
+  const data = {
+    labels,
     datasets: [
       {
-        label: "2024",
-        backgroundColor: "#7620ff",
-        borderColor: "rgb(194, 116, 161)",
-        data: value1,
-      },
-      {
-        label: "2022",
-        backgroundColor: "#f2b300",
-        borderColor: "rgb(71, 225, 167)",
-        data: value2,
+        label: "Skill Level",
+        data: values,
+        backgroundColor: labels.map((_, i) => (i % 2 === 0 ? "#7620ff" : "#f2b300")),
       },
     ],
-  });
+  };
+
+  const options = {
+    indexAxis: "y",
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      title: { display: false },
+    },
+    scales: {
+      x: { max: 100 },
+    },
+  };
 
   return (
-    <CDBContainer style={{ padding: "0px 0px 30px" }}>
-      <h3 className="mb-5 text-center font40 extraBold">
-        My Professional Skills
-      </h3>
-      <HorizontalBar data={data} options={{ responsive: true }} />
-    </CDBContainer>
+    <section style={{ padding: "0px 0px 30px" }}>
+      <h3 className="mb-5 text-center font40 extraBold">My Professional Skills</h3>
+      <Bar data={data} options={options} />
+    </section>
   );
 };
 

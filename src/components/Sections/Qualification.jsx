@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Chart from "./Chart";
 
 export default function Qualification() {
     return (
@@ -20,7 +21,7 @@ export default function Qualification() {
                     </td>
                     <td>James Cook University</td>
                     <td>2023 – 2025</td>
-                    <td>5.5/7</td>
+                    <td>5.5 / 7</td>
                   </tr>
                   <tr>
                     <td>Bachelor of Computer
@@ -57,6 +58,20 @@ export default function Qualification() {
                   </tr>
                 </tbody>
                 </QualificationTable>
+                <div style={{ marginTop: 40 }}>
+                  <Chart
+                    skills={[
+                      { label: "Flutter", value: 95 },
+                      { label: "Dart", value: 90 },
+                      { label: "React", value: 80 },
+                      { label: "JavaScript", value: 80 },
+                      { label: "Python", value: 70 },
+                      { label: "Firebase/Firestore", value: 75 },
+                      { label: "HTML/CSS", value: 70 },
+                      { label: "SQL", value: 60 },
+                    ]}
+                  />
+                </div>
             </div>
         </Wrapper>
        
