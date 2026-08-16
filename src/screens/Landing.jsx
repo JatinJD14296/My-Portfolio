@@ -19,7 +19,6 @@ export default function Landing() {
       <About />
       <Services />
       <Qualification />
-      
       {/* <Pricing /> */}
       <Projects />
       <Blog />

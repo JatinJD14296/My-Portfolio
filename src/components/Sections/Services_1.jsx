@@ -22,25 +22,25 @@ export default function Services() {
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="flutter"
-                title="MOBILE APP DEVELOPER"
-                tag="Contract | Jul 2025 - Dec 2025"
-                subtitle="GST Financial App · Flutter & Dart · Firebase & Firestore · Real-time Data Sync · Firebase Authentication · Microsoft DevOps · Slack · SourceTree · Git Version Control."
+                title="FLUTTER DEVELOPER"
+                tag="3.8 Years"
+                subtitle="Troubleshooting · Technical Support · Desktop Computers · Teamwork · Microsoft 365 · Service Desk · Ticketing Systems · IT Projects · Information Technology · Team Management · Problem Solving · Software Management · Databases · Help Desk Support · Communication."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="flutter"
-                title="MOBILE APP DEVELOPER INTERN"
-                tag="Internship | Apr 2025 - Jul 2025"
-                subtitle="Cross-platform Mobile Development · Flutter · Deeplinking · Dynamic Links · Android Intents · WebView · OAuth Authentication · JavaScript-Dart Integration · Microsoft DevOps · Microsoft Teams."
+                icon="stock-take"
+                title="STOCK TAKER"
+                tag="1 Year"
+                subtitle="Troubleshooting · Technical Support · Desktop Computers · Microsoft 365 · Service Desk · Ticketing Systems · Team Management · Problem Solving · Software Management · Help Desk Support."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="flutter"
-                title="FLUTTER DEVELOPER & TRAINER"
-                tag="Full-time | Jan 2020 - Feb 2023"
-                subtitle="Cross-platform Mobile Applications · UI/UX Implementation · State Management · REST API Integration · Backend Services · Mentoring · Junior Developer Training · Interactive User Interfaces."
+                icon="google"
+                title="GDSC LEAD QUT"
+                tag="8 Months"
+                subtitle="Teamwork · Microsoft 365 · Information Technology · Team Management · Problem Solving · Communication."
               />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
@@ -53,8 +53,14 @@ export default function Services() {
                   A few words about my achievements
                 </h4>
                 <h2 className="font40 extraBold text-left">Achievements</h2>
-                <p className="font14 text-justify">
-                  As a dedicated mobile app developer, I have successfully delivered multiple cross-platform applications using Flutter and Dart. I engineered a GST-focused financial management application with real-time data synchronization using Firebase and Firestore. With expertise in complex app navigation, OAuth authentication, and backend service integration, I've developed applications that maintain high performance and user satisfaction. Additionally, I have mentored junior developers and conducted training sessions at iFLUTTER, and currently maintain a 97% customer satisfaction rate in all professional endeavors.
+                <p className="font14 text-left">
+                  I am proud to have earned various certifications and
+                  achievements throughout my career. I attended the Flutter
+                  Bootcamp in Vadodara and actively participated in the
+                  International Flutter Hackathon, where I emerged as a winner,
+                  ranking 7th worldwide. Moreover, I completed the Introduction
+                  to Flutter Development using Dart course from the prestigious
+                  App Brewery.
                 </p>
                 <ButtonsRow
                   className="flexNullCenter"
@@ -171,3 +177,4 @@ const AddImgWrapp1 = styled.div`
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
 `;
+
