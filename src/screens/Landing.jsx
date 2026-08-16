@@ -9,7 +9,6 @@ import Contact from "../components/Sections/Contact";
 import Services from "../components/Sections/Services";
 import Footer from "../components/Sections/Footer";
 import Qualification from "../components/Sections/Qualification";
-import Pricing from "../components/Sections/Pricing";
 
 export default function Landing() {
   return (
